@@ -1,0 +1,402 @@
+/**
+ * This file contains the layouts for the main layout blocks (header, body, etc)
+ */
+
+body
+{
+    background: url('../img/bg.png') repeat-x top #a5c171 scroll;
+    margin: 20px 0px 20px 0px;
+}
+
+
+/* Global Containers */
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#holder
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+}
+
+#container
+{
+
+    border: 1px solid #333333;
+    background: #ffffff;
+    position: absolute;
+    width: 970px;
+}
+
+#content
+{
+    padding: 5px;
+}
+
+/* Header */
+
+#header
+{
+    width: 100%;
+    height: 110px;
+    /* background: url('../img/logo-header.gif') no-repeat left center; */
+    background: url('../img/header-bg.png') no-repeat right bottom;
+}
+
+#header h1, #header h2
+{
+    display: none;
+}
+
+#header img
+{
+    float: left;
+}
+
+#header a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Crumb */
+
+#crumb
+{
+    width: 100%;
+    height: 15px;
+    margin-top: 5px;
+    border-bottom: 1px dotted #666666;
+    padding: 0px 0px 3px 0px;
+}
+
+/* Left Menu */
+
+#left-menu
+{
+    width: 140px;
+    float: left;
+    /* border-right: 1px solid #aaaaaa; */
+    margin: 15px 10px 15px 0px;
+}
+
+
+/* Left Menu Links */
+
+#left-links ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#left-links li
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#left-links a
+{
+    display: block;
+    width: 120px;
+    height: 15px;
+    /* background: #fef3a3; */
+    border-bottom: 1px solid #cccccc;
+    padding: 2px;
+    padding-left: 20px;
+}
+
+
+#left-links .current
+{
+    background: #a5c171 url('../img/link-current.png') no-repeat left;
+}
+
+#left-links .link
+{
+    background: url('../img/link-normal.png') no-repeat left;
+}
+
+#left-links .link:hover
+{
+     background: #e0f0c1 url('../img/link-normal.png') no-repeat left;
+}
+
+#left-links .sublink, #left-links .sub-current
+{
+    height: 12px;
+    padding-left: 30px;
+    width: 110px;
+}
+
+#left-links .sublink:hover
+{
+    background: #f2fce0;
+}
+
+#left-links .sub-current
+{
+    background: #e6fbbe;
+}
+
+/* Body */
+
+#right-body
+{
+    float: right;
+    width: 785px;
+    margin: 15px 5px 0px 0px;
+    padding-right: 5px;
+}
+
+#right-body h1
+{
+    margin: 0px;
+    width: 85%;
+    border-bottom: 1px solid #666666;
+}
+
+#right-body h2, #right-body h3
+{
+    margin: 0px;
+}
+
+
+/* Footer */
+
+#footer-container
+{
+    float: left;
+    width: 100%;
+}
+
+#footer
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 4px 0px 5px 0px;
+    border-top: 1px solid #cccccc;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.links-break
+{
+    margin-top:15px;padding-top:8px;border-top: 1px dashed #666666
+}
+
+/* Misc */
+.backbox
+{
+    width: 250px;
+    border-top: 1px solid #999999;
+    font-size: 10px;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+
+fieldset
+{
+    width: 77%;
+    background: #EFF2D7;
+}
+
+fieldset label
+{
+    width: 70px;
+    text-align: right;
+    margin-right: 7px;
+    float: left;
+    margin-bottom: 2px;
+    margin-top: 4px;
+}
+
+fieldset input
+{
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.nicetable
+{
+    /* border: 1px solid #E9FADE; */
+    padding: 1px;
+}
+
+.nicetable td
+{
+    margin: 0px;
+    padding: 3px;
+}
+
+.nicetable-head
+{
+    background: #A6DE81;
+    font-weight: bold;
+    text-align: right;
+}
+
+.nicetable-entry td
+{
+    border-bottom: 1px solid #579E28;
+}
+
+/* Tabs */
+.tabs-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tabs-header li {
+    float: left;
+    border: 1px solid #bbb;
+    border-bottom-width: 0;
+    margin: 0;
+}
+
+.tabs-header a {
+    text-decoration: none;
+    display: block;
+    background: #eee;
+    padding: 0.24em 1em;
+    color: #00c;
+    width: 8em;
+    text-align: center;
+}
+
+.tabs-header a:hover {
+    background: #ddf;
+}
+
+.tabs-header .tabs-selected {
+    border-color: black;
+}
+
+.tabs-header .tabs-selected a {
+    position: relative;
+    top: 1px;
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+.tabs-content {
+    border: 1px solid black;
+    clear: both;
+    padding: 5px;
+}
+
+/** Posts **/
+.post
+{
+	margin: 0 0 20px;
+}
+
+.post .title
+{
+	font-size: 1.5em;
+	border-bottom: 1px solid #C9E0ED;
+}
+
+.post .title a
+{
+	color: #555;
+	text-decoration: none;
+}
+
+.post .author
+{
+	color: #888;
+	margin: 0 0 5px;
+}
+
+.post .nav
+{
+	-moz-border-radius:7px;
+	padding: 5px;
+	background: #EFFDFF;
+}
+
+
+
+/** Comments **/
+.comment
+{
+	-moz-border-radius:7px;
+	padding: 10px;
+	background: #F5F5F5;
+	margin: 5px 0;
+}
+
+.comment .content
+{
+	margin: 10px 0;
+}
+
+.comment .author
+{
+	margin: 5px 0;
+	padding: 0 0 3px;
+	border-bottom: 1px solid #DDD;
+}
+
+.comment .time
+{
+	color: #888;
+	font-size: 0.8em;
+}
+
+.comment a.cid
+{
+	color:#CCC;
+	float:right;
+	font-size:1.5em;
+	font-weight:bold;
+	padding:0 5px 5px 5px;
+	text-decoration: none;
+}
+
+.comment a.cid:hover
+{
+	color:#555;
+}
+
+.comment .pending
+{
+	color:red;
+}
+
+.errbox, .msgbox, .successbox
+{
+    border: 1px dashed #D81919;
+    background: #F6D2D2;
+    margin: 5px 0px 15px 20px;
+    padding: 3px;
+    width: 85%;
+    font-size: 12px;
+}
+
+.msgbox
+{
+    background: #EEECC8;
+    border-color: #000000;
+}
+
+.successbox
+{
+    background: #D1EEC8;
+    border-color: #42A622;
+}
+

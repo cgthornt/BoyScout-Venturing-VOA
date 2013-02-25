@@ -1,0 +1,6 @@
+2010/01/19 08:24:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in /www/default/public_html/voa/framework/web/CWebApplication.php:324
+Stack trace:
+#0 /www/default/public_html/voa/framework/web/CWebApplication.php(120): CWebApplication->runController('')
+#1 /www/default/public_html/voa/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /www/default/public_html/voa/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/voa/
